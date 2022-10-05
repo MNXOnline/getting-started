@@ -260,6 +260,12 @@ With all of that explained, let's start our dev-ready container!
     And in the mysql shell, run the following:
 
     ```plaintext
+    mysql> use todos
+    Reading table information for completion of table and column names
+    You can turn off this feature to get a quicker startup with -A
+
+    Database changed
+    
     mysql> select * from todo_items;
     +--------------------------------------+--------------------+-----------+
     | id                                   | name               | completed |
